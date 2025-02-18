@@ -15,6 +15,24 @@ Example 3:
 
 Input: list1 = [], list2 = [0]
 Output: [0]
+
 */
+
+
+// listas
+let listone = [1, 2, 4];
+let listtwo = [1, 3, 4];
+
+
+function sortedList(list1: number[], list2: number[]): number[] {
+    const result: any[] = [];
+    for(let i = 0; i < list1.length; i++){
+        result[i] == list1[i];
+    }
+
+    return result;
+}
+
+console.log(sortedList(listone, listtwo));
 
 
