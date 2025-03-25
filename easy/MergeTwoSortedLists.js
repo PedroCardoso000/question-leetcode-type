@@ -18,18 +18,11 @@ Input: list1 = [], list2 = [0]
 Output: [0]
 
 */
-
-
 // listas
-let listone = [1, 2, 4];
-let listtwo = [1, 3, 4];
-
-
-function sortedList(list1: number[], list2: number[]): number[] {
-    let result = list1.concat(list2);
-    return result.sort((a, b) => a - b);
+var listone = [1, 2, 4];
+var listtwo = [1, 3, 4];
+function sortedList(list1, list2) {
+    var result = list1.concat(list2);
+    return result.sort(function (a, b) { return a - b; });
 }
-
 console.log("Resultado ", sortedList(listone, listtwo));
-
-
